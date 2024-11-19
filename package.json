@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "vite": "^5.4.11"
+  },
+  "name": "00_my_own_react",
+  "version": "1.0.0",
+  "main": "App.js",
+  "dependencies": {
+    "esbuild": "^0.21.5",
+    "nanoid": "^3.3.7",
+    "picocolors": "^1.1.1",
+    "postcss": "^8.4.49",
+    "rollup": "^4.27.3",
+    "source-map-js": "^1.2.1"
+  },
+ 
+    "scripts": {
+      "dev": "vite",  
+      "build": "vite build",  
+      "preview": "vite preview"  
+    }
+   ,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

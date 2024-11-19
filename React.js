@@ -1,0 +1,12 @@
+function createElement(type, props, ...children) {
+	const reactElement = {
+		type: type,
+		props: {
+			...props,
+		},
+	};
+	if (children.length) reactElement.props.children = children;
+	return reactElement;
+}
+
+export default { createElement };
